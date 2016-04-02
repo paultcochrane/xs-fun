@@ -1,0 +1,12 @@
+language: perl
+sudo: false
+
+perl:
+    - "5.22"
+    - "5.20"
+    - "5.18"
+    - "5.16"
+    - "5.14"
+
+script:
+    - make test
